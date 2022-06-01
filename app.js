@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 const encrypt = require("mongoose-encryption");   // LVL 2
-// const md5 = require("md5")   //LVL 3
+// const md5 = require("md5")   // LVL 3
 const bcrypt = require("bcrypt");   // LVL 4
 const saltRounds = 10;
 
